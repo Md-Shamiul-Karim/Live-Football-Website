@@ -13,6 +13,18 @@
 
 }
 
+.container{
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
 .information{
 
     margin-left: 50px;
@@ -22,10 +34,22 @@
 .main-header h1{
     font-size: 50px;
     color: #FFFFFF;
+    font-family: 'Arima', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .sub-header p{
     color: #FFFFFF;
     font-size: 10px;
+    font-family: 'Arima', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -51,6 +75,12 @@
 
 
 
+/* -----------------
+    Second Part Start
+---------------------*/
+
+
+
 
 .menu-part a{
 
@@ -61,6 +91,13 @@
     text-align: center;
     
 }
+
+.menu-part a:hover{
+
+    background-color: chocolate;
+    font-size: 120%;
+}
+
 .menus{
 
     border: 2px solid black;
@@ -126,7 +163,7 @@
 }
 .blog{
 
-    border: 2px solid rgb(206, 10, 10);
+    border: 1px solid rgb(185, 182, 182);
     margin-right: 15px;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -165,6 +202,18 @@
 }
 
 
+/* -----------------
+    Second Part End
+---------------------*/
+
+
+
+
+/* -----------------
+    Third Part Start
+---------------------*/
+
+
 
 .footer{
     background-color: black;
@@ -189,4 +238,46 @@
     display: flex;
     justify-content: space-around;
 }
+
+/* -----------------
+    Third Part End
+---------------------*/
+
+
+.flags{
+    display: flex;
+}
+.flag img{
+
+    height: 60px;
+    width: 80px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.flag-part{
+    border: 1px solid rgb(185, 182, 182);
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.flag-part p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.flag-part small{
+    padding-left: 45px;
+    
+}
+
+.flags-here{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5px;
+
+}
+
 
