@@ -1,0 +1,192 @@
+
+/* -----------------
+    first part Start
+---------------------*/
+
+.container{
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    margin-right: 140px;
+    margin-left: 140px;
+    border-radius: 20px;
+
+}
+
+.information{
+
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.main-header h1{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.sub-header p{
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+
+
+.player-picture{
+
+    padding-left: 20px;
+}
+
+
+.watch-button a{
+    
+    background: red;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+/* -----------------
+    First Part End
+---------------------*/
+
+
+
+
+.menu-part a{
+
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.menus{
+
+    border: 2px solid black;
+    height: 180px;
+    width: 180px;
+    padding-top: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+
+.menu1{
+    background-color: #FFFFFF;
+   
+    
+}
+#menu2{
+
+    background-color: red;
+    
+}
+
+
+
+.blog-img {
+    width: 312px;
+    height: 175px;
+    left: 476px;
+    top: 826px;
+
+}
+
+.title{
+
+    border: 2px solid black;
+    margin-right: 1180px;
+    padding: 3px;
+    margin-top: 5px;
+    border-radius: 8px;
+
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.second-container{
+
+    display: flex;
+    margin-top: 20px;
+    margin-right: 180px;
+    margin-left: 140px;
+    border-radius: 20px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5px;
+    
+    
+}
+.blog{
+
+    border: 2px solid rgb(206, 10, 10);
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 240px;
+    
+}
+
+.blog img{
+
+    width: 240px ;
+    margin-bottom: 10px;
+}
+.blog a{
+
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.blog p{
+
+    padding-left: 5px;
+}
+.blog i{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.blog i , span{
+
+    font-size: 15px;
+}
+
+
+
+.footer{
+    background-color: black;
+    color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer h1{
+    text-align: center;
+    border-bottom: 2px solid gray;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+.footer-last{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
