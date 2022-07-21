@@ -1,6 +1,8 @@
 
 /* -----------------
+    
     first part Start
+
 ---------------------*/
 
 .container{
@@ -76,13 +78,17 @@
 }
 
 /* -----------------
+    
     First Part End
+
 ---------------------*/
 
 
 
 /* -----------------
+    
     Second Part Start
+
 ---------------------*/
 
 
@@ -207,16 +213,26 @@
     font-size: 15px;
 }
 
+.blog:hover{
+
+    font-size: 150%;
+    background-color: chocolate;
+}
+
 
 /* -----------------
+   
     Second Part End
+
 ---------------------*/
 
 
 
 
 /* -----------------
-    Third Part Start
+    
+    Third Part 1 Start
+
 ---------------------*/
 
 
@@ -246,8 +262,18 @@
 }
 
 /* -----------------
-    Third Part End
+    
+    Third Part 1 End
+
 ---------------------*/
+
+
+
+/* -----------------
+   
+    Third Part 2 Start
+
+-----------------------*/
 
 
 .flags{
@@ -293,3 +319,44 @@
 }
 
 
+/* -----------------
+    
+    Third Part 2 End
+
+---------------------*/
+
+
+
+
+/* -----------------
+    
+    Media Queries
+
+---------------------*/
+
+@media only screen and (max-width:688px){
+
+    .container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .second-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .flags-here{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+
+    
+}
